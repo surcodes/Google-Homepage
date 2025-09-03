@@ -61,10 +61,13 @@ li a:hover {
 }
 
 .profile-pic {
-  margin-top: 6px;
   border-radius: 50%;
-  width: 100%;
+  width: 32px;  
+  height: 32px;
+  cursor: pointer;
+  margin: 0 0 0 10px; 
 }
+
 
 .search-wrapper {
   height: 60vh;
@@ -164,3 +167,4 @@ p {
 .right {
   justify-content: flex-end;
 }
+
